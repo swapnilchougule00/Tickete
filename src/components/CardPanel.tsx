@@ -13,7 +13,7 @@ import { Calendar, CupSoda, InfoIcon, PiggyBank, Plus, Star, Ticket, TimerIcon, 
 
 export function CardPanel() {
     return (
-        <Card className="md:w-[350px] w-full h-fit">
+        <Card className="md:w-[350px] !rounded-3xl w-full h-fit">
             <CardHeader className="flex justify-center items-center w-full">
                 <CarouselImags />
             </CardHeader>

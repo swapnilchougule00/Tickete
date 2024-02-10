@@ -24,7 +24,7 @@ function InformationForm() {
 
             <h1 className='font-serif hidden md:block text-5xl'>Confirm & Pay</h1>
 
-            <div className='p-4 md:mt-10 mt-5 relative space-y-1 border border-slate-200 rounded-lg'>
+            <div className='p-4 md:mt-10 mt-5 relative space-y-1 border border-slate-200 !rounded-2xl'>
                 <h1 className='text-sm font-semibold'>Free Cancellation</h1>
                 <h1 className='text-sm text-[#60646C] '>Tickets can be cancelled by 13th December, 2022.</h1>
                 <InfoIcon className='w-4 absolute top-2 text-white right-4' fill='#60646C' />

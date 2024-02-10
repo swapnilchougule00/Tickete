@@ -84,7 +84,7 @@ function Payments() {
             <span className="text-xs mt-10 w-fit text-green-700 md:hidden flex items-center gap-2 px-2 p-1 rounded-xl bg-green-200"> <PiggyBank fill="green" className="w-3 h-3" /> You saved $ 10 </span>
 
             <h1 className='text-2xl mt-4 '>Total payble: $ 100</h1>
-            <div className='p-4 my-4  mb-10 relative space-y-1 font-semibold border border-slate-200 rounded-lg'>
+            <div className='p-4 my-4  mb-10 relative space-y-1 font-semibold border border-slate-200 !rounded-2xl'>
                 <div className="text-sm   flex items-center gap-2 text-[#000000f0]">
                     <InfoIcon fill='black' color='white' className='w-[14px] ' />
                     <span className=''>

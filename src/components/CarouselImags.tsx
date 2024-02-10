@@ -23,17 +23,17 @@ export function CarouselImags() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full relative rounded-lg h-fit   max-w-xs"
+      className="w-full relative  h-fit   max-w-xs"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
 
-      <CarouselContent className="shadow-xl rounded-lg">
+      <CarouselContent className="shadow-xl ">
         {arr.map((index: any) => (
           <CarouselItem >
-            <Card className="!rounded-lg !w-full overflow-hidden">
-              <CardContent className="!p-0 flex justify-center items-center w-full !rounded-lg  ">
-                <img src={index} alt="1" className="w-full"  />
+            <Card className="!rounded-3xl !w-full overflow-hidden">
+              <CardContent className="!p-0 !rounded-3xl flex justify-center items-center w-full   ">
+                <img src={index} alt="1" className="w-full !rounded-3xl"  />
               </CardContent>
             </Card>
           </CarouselItem>
