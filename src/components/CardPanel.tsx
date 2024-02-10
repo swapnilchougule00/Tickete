@@ -36,7 +36,7 @@ export function CardPanel() {
                 <p className="text-sm border-b border-b-[#60646C] font-semibold text-[#60646C]"> View payment summary </p>
                 <Plus color="#60646C" width={20} />
             </div>
-            <CardFooter className="block mt-4 space-y-2">
+            <CardFooter className="block mt-4 space-y-3">
                 <div className="text-lg flex justify-between font-semibold">
                     <p>Total payble</p>
                     <p>$ 100</p>
