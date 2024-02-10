@@ -31,9 +31,9 @@ export function CarouselImags() {
       <CarouselContent className="shadow-xl rounded-lg">
         {arr.map((index: any) => (
           <CarouselItem >
-            <Card className="!rounded-lg ">
-              <CardContent className="!p-0  !rounded-lg  ">
-                <img src={index} alt="1" className="rounded-lg w-full" />
+            <Card className="!rounded-lg !w-full overflow-hidden">
+              <CardContent className="!p-0 flex justify-center items-center w-full !rounded-lg  ">
+                <img src={index} alt="1" className="w-full"  />
               </CardContent>
             </Card>
           </CarouselItem>

@@ -14,14 +14,13 @@ import { Calendar, CupSoda, InfoIcon, PiggyBank, Plus, Star, Ticket, TimerIcon, 
 export function CardPanel() {
     return (
         <Card className="md:w-[350px] w-full h-fit">
-            <CardHeader>
+            <CardHeader className="flex justify-center items-center w-full">
                 <CarouselImags />
-                <p className="text-sm text-[#60646C] flex items-center"> <Star className="w-4 h-4" fill="#FE575D" color="treansperent" /> <span className="font-semibold text-black">4.9</span>(4.5k) • Tours</p>
-                <CardTitle className="text-[14px]">Amsterdam open boat canal cruise - Live Guiye - from Anne Frank Housef</CardTitle>
-
             </CardHeader>
             <CardContent className=" ">
+                <p className="text-sm text-[#60646C] flex items-center"> <Star className="w-4 h-4" fill="#FE575D" color="treansperent" /> <span className="font-semibold text-black">4.9</span>(4.5k) • Tours</p>
 
+                <CardTitle className="text-[14px]">Amsterdam open boat canal cruise - Live Guiye - from Anne Frank Housef</CardTitle>
                 <p className="text-sm my-2 flex items-center gap-2 font-semibold"><Ticket className="w-4 h-4" />  1 ticket • 1 Adult</p>
                 <div className="">
                     <p className="text-sm flex items-center gap-2 font-semibold"> <Calendar className="w-4 h-4" /> 13 Feb 2022</p>

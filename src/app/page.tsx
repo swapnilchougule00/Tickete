@@ -9,7 +9,7 @@ export default function Home() {
 
 
   return (
-    <div className="w-full p-10 md:px-24 flex flex-col justify-center items-center">
+    <div className="w-full p-6 md:p-10 md:px-24 flex flex-col justify-center items-center">
       <div className="w-full flex md:flex-row  flex-col-reverse gap-6">
         <div className="md:w-[70%] ">
           <InformationForm />

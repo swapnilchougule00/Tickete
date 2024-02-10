@@ -7,7 +7,7 @@ import React from 'react'
 function Header() {
     return (
         <header className='\'>
-            <div className='flex items-center justify-between px-10 p-5'>
+            <div className='flex items-center justify-between md:px-10 p-5'>
                 <Link href='https://www.tickete.co/' target='_blank' className='md:flex hidden  w-fit items-center space-x-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127 32"
                         className="[&amp;_path]:fill_c-brand-default w-[120px] [&amp;_path]:stroke_c-brand-default w_95px md:w_127px text-black h_24px md:h_32px fill_none">
@@ -34,7 +34,7 @@ function Header() {
                 </div>
             </div>
             <div className='bg-black text-white text-sm text-center w-full p-3 tracking-wide'>
-                <h1>Holding your tickets for : 30</h1>
+                <h1>Holding your tickets for : 30:00</h1>
             </div>
         </header>
     )

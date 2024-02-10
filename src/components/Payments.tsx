@@ -29,13 +29,13 @@ function Payments() {
                 </CardHeader>
                 <CardContent className=" ">
                 <div className='md:flex space-y-5 md:space-y-0  gap-4'>
-                        <Input placeholder='Email*'></Input>
-                        <Input placeholder='Confirm Email'></Input>
+                        <Input placeholder='Name on card'></Input>
+                        <Input placeholder='Card number'></Input>
                     </div>
 
                     <div className='md:flex space-y-5 md:space-y-0 border-b pb-6 gap-4'>
-                        <Input placeholder='Email*'></Input>
-                        <Input placeholder='Confirm Email'></Input>
+                        <Input placeholder='Expiry Date'></Input>
+                        <Input placeholder='CVV'></Input>
                     </div>
                 </CardContent>
 
@@ -65,7 +65,7 @@ function Payments() {
             <div className='border-b pb-6'>
                 <div className='p-4 mt-10 relative flex justify-between space-y-1 border text-[#60646C] border-slate-300  bg-slate-100 rounded-lg'>
                     <h1 className='text-sm flex gap-4 items-center font-semibold'> 
-                    <img src="https://www.logo.wine/a/logo/Apple_Pay/Apple_Pay-Logo.wine.svg" alt="logo" className='w-6' />
+                    <img src="https://www.logo.wine/a/logo/Apple_Pay/Apple_Pay-Logo.wine.svg" alt="logo" className='w-6 border' />
                     Coming soon
                     </h1>
                     <span className='p-2 rounded-full bg-slate-300'></span>
@@ -73,7 +73,7 @@ function Payments() {
 
                 <div className='p-4 mt-5 relative flex justify-between space-y-1 border text-[#60646C] border-slate-300  bg-slate-100 rounded-lg'>
                     <h1 className='text-sm flex items-center gap-4 font-semibold'>
-                    <img src="https://www.logo.wine/a/logo/Google_Pay/Google_Pay-Logo.wine.svg" alt="logo" className='w-6' />
+                    <img src="https://www.logo.wine/a/logo/Google_Pay/Google_Pay-Logo.wine.svg" alt="logo" className='w-6  border' />
                         Coming soon
                         </h1>
                     <span className='p-2 rounded-full bg-slate-300'></span>

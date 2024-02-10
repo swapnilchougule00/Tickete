@@ -10,10 +10,13 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
+import { cn } from "@/lib/utils";
 
 import React from 'react'
 import { Input } from './ui/input'
 import { Label } from './ui/label'
+
+
 
 function InformationForm() {
     return (
@@ -33,8 +36,8 @@ function InformationForm() {
             </div>
 
             <form action="#" className='py-10 border-b  space-y-5'>
-                <Label htmlFor='name'>Email <span className='!text-red-500'>*</span></Label>
-                <Input className='outline-none ' id='name' placeholder='Full Name' required></Input>
+                {/* <Label htmlFor='name'>Email <span className='!text-red-500'>*</span></Label> */}
+                <Input className='outline-none ' id='name'   placeholder='Full name' required></Input>
                 <div className='md:flex space-y-5 md:space-y-0  gap-4'>
                     <Select>
                         <SelectTrigger className="text-[#60646C]">
