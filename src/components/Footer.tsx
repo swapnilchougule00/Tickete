@@ -13,10 +13,10 @@ function Footer() {
                 </svg>
             </Link>
 
-            <div className='border-t w-full p-3 px-10 border-t-[#3C3F44] text-[#7D828A]'>
-                <ul className='flex text-sm text-[#7D828A] list-disc space-x-10 items-center'>
-                    <li>Made with ❤️</li>
-                    <li>Privacy policy</li>
+            <div className='border-t w-full p-3 flex flex-col-reverse md:flex-row gap-6 px-10 border-t-[#3C3F44] text-[#7D828A]'>
+                <p>Made with ❤️</p>
+                <ul className='flex text-sm text-[#7D828A] flex-wrap md:list-disc gap-4 md:gap-0 md:space-x-10 items-center'>
+                    <p>Privacy policy</p>
                     <li>Terms of usage</li>
                     <li>Cancellation policy</li>
                     <li>Sitemap</li>
