@@ -1,11 +1,32 @@
+'use client'
 import { ArrowLeft, LockKeyholeIcon } from 'lucide-react'
-import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 
 
 function Header() {
+
+    const initialTime = 30 * 60; // 30 minutes in seconds
+    const [seconds, setSeconds] = useState(initialTime);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setSeconds((prevSeconds) => (prevSeconds > 0 ? prevSeconds - 1 : 0));
+      }, 1000);
+  
+      return () => clearInterval(interval);
+    }, []);
+  
+    const formatTime = (timeInSeconds: number): string => {
+      const minutes = Math.floor(timeInSeconds / 60);
+      const seconds = timeInSeconds % 60;
+      return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+    };
+
+    
     return (
+
+        
         <header className='\'>
             <div className='flex items-center justify-between md:px-10 p-5'>
                 <Link href='https://www.tickete.co/' target='_blank' className='md:flex hidden  w-fit items-center space-x-2'>
@@ -34,7 +55,7 @@ function Header() {
                 </div>
             </div>
             <div className='bg-black text-white text-sm text-center w-full p-3 tracking-wide'>
-                <h1>Holding your tickets for : 30:00</h1>
+                <h1>Holding your tickets for : {formatTime(seconds)}</h1>
             </div>
         </header>
     )

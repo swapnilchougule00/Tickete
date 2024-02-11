@@ -22,9 +22,9 @@ function Payments() {
                 <CardHeader className='!p-6'>
                     <CardTitle className="text-base items-center flex gap-4 relative"><CreditCard className='w-4 h-4' /> Credit & debit card  <span className='absolute p-1 border-4 border-black rounded-full top-1 text-lg right-5 text-white'></span></CardTitle>
                     <div className='flex mt-2 space-x-4'>
-                        <img src="https://www.logo.wine/a/logo/Mastercard/Mastercard-Logo.wine.svg" className='w-6' alt="logo" />
-                        <img src="https://www.logo.wine/a/logo/Visa_Inc./Visa_Inc.-Logo.wine.svg" className='w-6' alt="logo" />
-                        <img src="https://1000logos.net/wp-content/uploads/2020/04/Logo-Diners-Club-International.jpg" className='w-6' alt="logo" />
+                        <img src="https://www.logo.wine/a/logo/Mastercard/Mastercard-Logo.wine.svg" className='w-6 border' alt="logo" />
+                        <img src="https://www.logo.wine/a/logo/Visa_Inc./Visa_Inc.-Logo.wine.svg" className='w-6 border' alt="logo" />
+                        <img src="https://1000logos.net/wp-content/uploads/2020/04/Logo-Diners-Club-International.jpg" className='w-6 border' alt="logo" />
                     </div>
                 </CardHeader>
                 <CardContent className=" ">
@@ -63,7 +63,7 @@ function Payments() {
             </Card>
 
             <div className='border-b pb-6'>
-                <div className='p-4 mt-10 relative flex justify-between space-y-1 border text-[#60646C] border-slate-300  bg-slate-100 rounded-lg'>
+                <div  className='p-4  mt-10 relative flex justify-between space-y-1 border text-[#60646C] border-slate-300  bg-slate-100 rounded-lg'>
                     <h1 className='text-sm flex gap-4 items-center font-semibold'> 
                     <img src="https://www.logo.wine/a/logo/Apple_Pay/Apple_Pay-Logo.wine.svg" alt="logo" className='w-6 border' />
                     Coming soon
